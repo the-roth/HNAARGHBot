@@ -6,7 +6,7 @@ This is the code for my Twitch bot, HNAARGHBot. I wrote this as a way of learnin
 
 HNAARGHBot essentially works like this:
 
-- Run.py is the main file which starts the bot, which is a TwitchBot class (see twitch_bot.py). It simply connects to IRC and is able to send commands to chat or privately to users, timeout users etc. 
+- Run.py is the main file which starts the bot, which is a TwitchBot class (see twitch_bot.py). It simply connects to IRC and is able to send commands to chat or privately to users, timeout users etc.
 
 - The bot then processes Commands which can be either an InfoCommand (displays the possible commands available to the user), TextResponse (responds to user input), HNAARGH response, or a Game (!meateo, !outback, !jelly).
 
@@ -16,6 +16,6 @@ HNAARGHBot was originally designed to just respond to variations of the word 'HN
 
 - Outback - An autobattle game where people in chat sign up to battle a creature from the Australian Outback. The game can currently hold up to 12 players.
 
-- Jelly - Another autobattle game that mimics the end game fight against the Master Jelly in the Ancient Cave in Lufia 2: Rise of the Sinistrals. It generates an item pool found during a 'typical' Ancient Cave playthrough and then equip and use the items against the Jelly in a somewhat optimal fashion.
+- Jelly - Another autobattle game that mimics the end game fight against the Master Jelly in the Ancient Cave in Lufia 2: Rise of the Sinistrals. It generates an item pool found during a 'typical' Ancient Cave playthrough and then equips and uses these items against the Jelly in a somewhat optimal fashion.
 
-I still need to make a few improvements which will (hopefully) happen over time, I have a few other projects to work on which will also be posted on Github in the future. You can find further information about my chat bot games [here](https://www.twitch.tv/hnaarghbot). If you have any feedback or questions about my bot, feel free to message me on [Twitch](http://www.twitch.tv/the_roth) or email me at [david.rothall@gmail.com](david.rothall@gmail.com)!
+I still need to make a few improvements which will (hopefully) happen over time, I have a few other projects to work on which will also be posted on Github in the future. You can find further information about my chat bot games [here](https://www.twitch.tv/hnaarghbot). If you have any feedback or questions about my bot, feel free to message me on [Twitch](http://www.twitch.tv/the_roth) or email me at david.rothall@gmail.com!
